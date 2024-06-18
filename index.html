@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Big Picture by Life Memory</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+<!-- Pop Up -->
+	<div id="popup" class="popup">
+		<div class="popup-content">
+			<p>Souhaitez-vous lancer l'immersion auditive ?</p>
+			<button class="button style2" id="acceptButton">Oui</button>
+			<button class="button style2" id="rejectButton">Non</button>
+			<br \>
+			<q>Profitez de l'immersion auditive pour vivre une expérience sensorielle unique.</q>
+		</div>
+	</div>
+<!-- Pop Up Pursue -->
+	<div id="popupPursue" class="popup" style="display: none;">
+		<div class="popup-content">
+			<p>Souhaitez-vous reprendre l'immersion auditive ?</p>
+			<button class="button style2" id="resumeButton">Oui</button>
+			<button class="button style2" id="cancelButton">Non</button>
+			<br \>
+			<q>Profitez de l'immersion auditive pour vivre une expérience sensorielle unique.</q>
+		</div>
+	</div>
+<!-- Playlist -->
+	<audio id="audio" preload="auto" playsinline onended="playNext()">
+		<source src="audio/A Day to Remember - FiftySounds.mp3" type="audio/mpeg">
+		<source src="audio/Sweet Moments.mp3" type="audio/mpeg">
+		<source src="audio/Just a Thought - FiftySounds.mp3" type="audio/mpeg">        
+	</audio>
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Life Memory</h1>
+				<nav>
+					<ul>
+						<li><a href="#intro">Life Memory</a></li>
+						<li><a href="#one">Souvenir</a></li>
+						<li><a href="#two">Partage</a></li>
+						<li><a href="#galerie">Galerie</a></li>
+						<li><a href="#media">Média</a></li>
+						<li><a href="#livreOr">livre D'Or</a></li>
+						<li><a href="#geolocalisation">Géolocalisation</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<header>
+						<h2>Life Memory</h2>
+					</header>
+					<p><a href="https://nextfrenchtech.github.io/lifememory/" target="_blank"><strong>Life Memory</strong></a> est une plateforme dédiée à la préservation de vos souvenirs les plus précieux.
+						Créez des albums, partagez des messages, et revivez les moments qui comptent le plus.
+						Nos sites vous offriront des espaces uniques en des lieux de...
+					</p>
+					<footer>
+						<a href="#one" class="button style2 down">More</a>
+					</footer>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Souvenir</h2>
+					</header>
+					<p>Créez un Livre de Souvenirs Éternels pour Votre Mariage : <br \>
+						Votre mariage est un moment unique et précieux. Avec <a href="https://nextfrenchtech.github.io/lifememory/" target="_blank"><strong>Life Memory</strong></a>, transformez ce jour spécial en un souvenir impérissable.<br \>
+						Créez un espace en ligne où vous, famille et amis pourront retrouver : souvenirs et messages de félicitations... Revivez chaque sourire, chaque danse, et chaque discours à travers un livre de souvenirs numérique accessible à tout moment. Célébrez l'amour et l'union avec <a href="https://nextfrenchtech.github.io/lifememory/" target="_blank"><strong>Life Memory</strong></a>.
+					</p>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Partage</h2>
+					</header>
+					<p>Souhaitez la Bienvenue à votre Nouveau-Né : <br \>
+						Avec <a href="https://nextfrenchtech.github.io/lifememory/" target="_blank"><strong>Life Memory</strong></a>, capturez et partagez chaque instant précieux de cette nouvelle aventure.<br \>
+						Créez un album en ligne pour votre nouveau-né où lui, famille et amis pourront retrouver : messages de bienvenue et souvenirs... Documentez chaque sourire, chaque câlin, et chaque étape importante. Partagez ces moments magiques et gardez-les pour toujours avec <a href="https://nextfrenchtech.github.io/lifememory/" target="_blank"><strong>Life Memory</strong></a>.
+					</p>
+				</div>
+				<a href="#galerie" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Galerie -->
+			<section id="galerie" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>Galerie</h2>
+						<p>"Des Souvenirs à Partager, Des Moments à Chérir"</p>
+					</header>
+
+					<!-- Gallery  -->
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/fulls/pic02.jpg" class="image fit"><img src="images/thumbs/pic02.jpg" title="The Anonymous Red" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/pic03.jpg" class="image fit"><img src="images/thumbs/pic03.jpg" title="Airchitecture II" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="Air Lounge" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="Carry on" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/08.jpg" class="image fit"><img src="images/thumbs/08.jpg" title="The sparkling shell" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/09.jpg" class="image fit"><img src="images/thumbs/09.jpg" title="Bent IX" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/07.jpg" class="image fit"><img src="images/thumbs/07.jpg" title="Carry on" alt="" /></a>
+							</article>
+						</div>
+
+				</div>
+			</section>
+
+		<!-- Media -->
+			<section id="media" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>Média</h2>
+						<p>"Des Souvenirs à Partager, Des Moments à Chérir"</p>
+					</header>
+
+					<!-- Gallery  -->
+						<div class="gallery">
+							<article class="from-right">
+								<video id="videoPlayer01" controls src="videos/vid01.mp4" class="image fit video"></video>
+							</article>
+							<article class="from-left">
+								<video id="videoPlayer02" controls src="videos/vid02.mp4" class="image fit video"></video>
+							</article>
+						</div>
+
+				</div>
+			</section>
+
+		<!-- livreOr -->
+			<section id="livreOr" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Livre D'Or</h2>
+						<p>"Des Souvenirs à Partager, Des Moments à Chérir"</p>
+					</header>
+
+					<!-- livreOr -->
+						<div class="box">
+							<blockquote>Lorem ipsum dolor sit amet. Felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in vestibulum. Blandit adipiscing eu iaculis volutpat ac adipiscing volutpat ac adipiscing faucibus.</blockquote>
+							<sup>Personne 1</sup>
+							<blockquote>Lorem ipsum dolor sit amet. Felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in vestibulum. Blandit adipiscing eu iaculis volutpat ac adipiscing volutpat ac adipiscing faucibus.</blockquote>
+							<sup>Personne 2</sup>
+							<blockquote>Lorem ipsum dolor sit amet. Felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in vestibulum. Blandit adipiscing eu iaculis volutpat ac adipiscing volutpat ac adipiscing faucibus.</blockquote>
+							<sup>Personne 3</sup>
+							<blockquote>Lorem ipsum dolor sit amet. Felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in vestibulum. Blandit adipiscing eu iaculis volutpat ac adipiscing volutpat ac adipiscing faucibus.</blockquote>
+							<sup>Personne 4</sup>
+							<blockquote>Lorem ipsum dolor sit amet. Felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in vestibulum. Blandit adipiscing eu iaculis volutpat ac adipiscing volutpat ac adipiscing faucibus.</blockquote>
+							<sup>Personne 5</sup>
+							<blockquote>Lorem ipsum dolor sit amet. Felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in vestibulum. Blandit adipiscing eu iaculis volutpat ac adipiscing volutpat ac adipiscing faucibus.</blockquote>
+							<sup>Personne 6</sup>
+						</div>
+
+				</div>
+			</section>
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Géolocalisation</h2>
+						<p>"Des Souvenirs à Partager, Des Moments à Chérir"</p>
+					</header>
+
+					<!-- geolocalisation -->
+						<div class="none">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44180.523988245506!2d6.14303885!3d46.20483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c650693d0e2eb%3A0xa0b695357b0bbc39!2zR2Vuw6h2ZSwgU3Vpc3Nl!5e0!3m2!1sfr!2sfr!4v1717516525119!5m2!1sfr!2sfr" width="335" height="335" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="geolocalisation"></iframe>
+						</div>
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="icons">
+						<li><a href="https://nextfrenchtech.github.io/lifememory/" target="_blank" class="icon solid fa-cloud"><span class="label">Cloud</span></a></li>
+						<li><a href="https://www.facebook.com/" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.youtube.com/" target="_blank" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
+						<li><a href="mailto:contact@lifememory.cloud" class="icon solid fa-paper-plane"><span class="label">Email</span></a> Félicitations</li>
+						<li><a href="mailto:contact@lifememory.cloud" class="icon solid fa-paper-plane"><span class="label">Email</span></a> Bienvenue</li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; <a href="https://nextfrenchtech.github.io/lifememory/" target="_blank"><strong>Life Memory</strong></a></li><li><a href="https://www.nftproduction.ch/" target="_blank">&lt/&gt Développement NFT PRODUCTION.</a></li>
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
