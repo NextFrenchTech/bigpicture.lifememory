@@ -258,6 +258,7 @@
 			const showPopup = (popupElement) => {
 				setTimeout(() => {
 					popupElement.style.display = "block";
+					popupElement.style.zIndex = 2147483647;
 				}, 1000);
 			};
 		
